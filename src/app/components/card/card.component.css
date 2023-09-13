@@ -1,0 +1,130 @@
+.card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232222;
+    border-radius: 10px;
+}
+
+.card input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    color: #232222;
+}
+
+.card .card-title {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.card .card-body {
+    background-color: #616161;
+    width: 90%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-body img {
+    width: 150px;
+}
+
+.card .card-stats {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card .card-stats .normal {
+    background-color: #AEB29C;
+}
+
+.card .card-stats .poison {
+    background-color: #A95897;
+}
+
+.card .card-stats .psychic {
+    background-color: #E65AA1;
+}
+
+.card .card-stats .grass {
+    background-color: #82C648;
+}
+
+.card .card-stats .ground {
+    background-color: #D2BA53
+}
+
+.card .card-stats .ice {
+    background-color: #87DCFD;
+}
+
+.card .card-stats .fire {
+    background-color: #E54C3C;
+}
+
+.card .card-stats .rock {
+    background-color: #B5A965;
+}
+
+.card .card-stats .dragon {
+    background-color: #806FFD;
+}
+
+.card .card-stats .water {
+    background-color: #4E9EFA;
+}
+
+.card .card-stats .bug {
+    background-color: #B2BF27;
+}
+
+.card .card-stats .dark {
+    background-color: #865E48;
+}
+
+.card .card-stats .fighting {
+    background-color: #B4564E;
+}
+
+.card .card-stats .ghost {
+    background-color: #6D68BE;
+}
+
+.card .card-stats .steel {
+    background-color: #B2B0C8;
+}
+
+.card .card-stats .flying {
+    background-color: #6B96F5;
+}
+
+.card .card-stats .electric {
+    background-color: #F7CF39;
+}
+
+.card .card-stats .fairy {
+    background-color: #E29EE7;
+}
+
+.card .card-stats .card-stats-type {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
